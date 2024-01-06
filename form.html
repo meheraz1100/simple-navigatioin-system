@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="Table.html">Table</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h3>Learn About HTML form</h3>
+    <main>
+        <section>
+            <h2>Please fill up the form below</h2>
+            <form>
+                <label for="i1">Your Name: 
+                    <input type="text" name="" placeholder="your name" id="i1">
+                </label>
+                <label for="i2">Your Email: 
+                    <input type="email " name="" placeholder="your email" id="i2">
+                </label>
+                <label for="i3">Your Phone: 
+                    <input type="number" id="i3" placeholder="Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one item</legend>
+                    <label for="chitoy">
+                        <input type="radio" id="chitoy" name="pitha">Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" id="vapa" name="pitha">vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" id="puri" name="pitha">puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>pick one or more vorta</legend>
+                    <label for="shorisha">
+                        <input type="checkbox" id="shorisha" name="vorta">shorisha
+                    </label>
+                    <label for="shutki">
+                        <input type="checkbox" id="shutki" name="vorta">shutki
+                    </label>
+                    <label for="Chili">
+                        <input type="checkbox" id="Chili" name="vorta">Chili
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="clear" id="clear" cols="30" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" name="clear" id="clear">
+                <input type="submit" name="" id="">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
